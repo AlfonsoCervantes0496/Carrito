@@ -6,7 +6,7 @@ import CartContext from '../UseContext/Cart'
 
 const Header = () => {
 
-    const {Cart, Catalogo, Resumen}=useContext(CartContext)
+    const {Resumen}=useContext(CartContext)
     const array=[Resumen]
     
     
